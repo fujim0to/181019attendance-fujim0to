@@ -7,7 +7,7 @@ Spyderエディタ
 def fib(n):
 #フィボナッチ数列を定義する。
     a, b = 0, 1
-    for i in range(n):
+    for i in range(n-1):
         a, b = b, a + b
     return b
 
